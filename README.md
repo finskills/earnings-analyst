@@ -53,7 +53,7 @@ Claude: [Fetches earnings history, estimates, implied move, news, outputs full r
 
 ## Requirements
 
-- **Finskills API Key**: [Get one free](https://finskills.net/register)
+- **Finskills API Key** ([register here](https://finskills.net)): [Register at finskills.net](https://finskills.net) (free tier available)
 - Calendar-only mode works on **free plan**; full per-stock analysis requires **Pro**
 
 ## License
