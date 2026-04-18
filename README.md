@@ -19,7 +19,7 @@ Supports two modes:
 ## Install
 
 ```bash
-npx skills add https://github.com/your-org/finskills-skills --skill earnings-analyst
+npx skills add https://github.com/finskills/earnings-analyst --skill earnings-analyst
 ```
 
 ## Quick Start
@@ -53,7 +53,7 @@ Claude: [Fetches earnings history, estimates, implied move, news, outputs full r
 
 ## Requirements
 
-- **Finskills API Key** ([register here](https://finskills.net)): [Register at finskills.net](https://finskills.net) (free tier available)
+- **Finskills API Key**: [Register at finskills.net](https://finskills.net) (free tier available)
 - Calendar-only mode works on **free plan**; full per-stock analysis requires **Pro**
 
 ## License

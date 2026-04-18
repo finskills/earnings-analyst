@@ -1,3 +1,16 @@
+---
+name: Earnings Analyst
+version: 1.0.0
+description: "Research upcoming earnings events, analyze historical beat/miss patterns, and estimate post-earnings price reactions using the Finskills API."
+author: finskills
+homepage: https://github.com/finskills/earnings-analyst
+credentials:
+  - name: FINSKILLS_API_KEY
+    description: "Finskills API key — register for free at https://finskills.net (free for market-wide calendar; Pro for per-stock earnings detail)"
+    required: true
+    link: https://finskills.net
+---
+
 # Earnings Analyst
 
 Track upcoming earnings events, analyze EPS beat/miss history, assess options-
@@ -8,7 +21,7 @@ powered by the Finskills API earnings calendar and company earnings endpoints.
 
 ## Setup
 
-**API Key required** (Free endpoint for market-wide calendar; Pro for per-stock earnings).  
+**API Key required** — [Register at https://finskills.net](https://finskills.net) to get your free key.  
 Header: `X-API-Key: <your_api_key>`
 > **Get your API key**: Register at **https://finskills.net** — free tier available, Pro plan unlocks real-time quotes, history, and financials.
 
