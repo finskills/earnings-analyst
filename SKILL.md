@@ -1,14 +1,15 @@
 ---
 name: Earnings Analyst
-version: 1.0.1
+version: 1.0.2
 description: "Research upcoming earnings events, analyze historical beat/miss patterns, and estimate post-earnings price reactions using the Finskills API."
 author: finskills
-homepage: https://github.com/finskills/earnings-analyst
-credentials:
-  - name: FINSKILLS_API_KEY
-    description: "Finskills API key — register for free at https://finskills.net (free for market-wide calendar; Pro for per-stock earnings detail)"
-    required: true
-    link: https://finskills.net
+metadata:
+  openclaw:
+    requires:
+      env:
+        - FINSKILLS_API_KEY
+    primaryEnv: FINSKILLS_API_KEY
+  homepage: https://github.com/finskills/earnings-analyst
 ---
 
 # Earnings Analyst
