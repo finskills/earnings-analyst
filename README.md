@@ -18,9 +18,11 @@ Supports two modes:
 
 ## Install
 
-```bash
-npx skills add https://github.com/finskills/earnings-analyst --skill earnings-analyst
-```
+Add this skill via [ClawHub](https://clawhub.ai/finskills/earnings-analyst):
+
+1. Visit **[https://clawhub.ai/finskills/earnings-analyst](https://clawhub.ai/finskills/earnings-analyst)**
+2. Click **Download zip** and follow the setup instructions
+3. Set your API key: `FINSKILLS_API_KEY=your_key_here`
 
 ## Quick Start
 

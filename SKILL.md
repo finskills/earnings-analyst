@@ -1,6 +1,6 @@
 ---
 name: Earnings Analyst
-version: 1.0.0
+version: 1.0.1
 description: "Research upcoming earnings events, analyze historical beat/miss patterns, and estimate post-earnings price reactions using the Finskills API."
 author: finskills
 homepage: https://github.com/finskills/earnings-analyst
